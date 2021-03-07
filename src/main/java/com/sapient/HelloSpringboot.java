@@ -14,7 +14,7 @@ public class HelloSpringboot {
 
 	@GetMapping("/api/hello/{name}")
 	public String sayHello(@PathVariable String name) {
-		return String.format("Hello, %s!", name);
+		return String.format("Hello, %s! How are you doing today?", name);
 	}
 
 }
